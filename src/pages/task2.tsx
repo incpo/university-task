@@ -25,7 +25,7 @@ const Task2 : NextPage = () => {
     <>
       <Head>
         <title>Task2</title>
-        <meta name="description" content="task2" />
+        <meta name="description" content="SPBUME" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
