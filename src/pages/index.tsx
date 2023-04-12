@@ -37,6 +37,8 @@ export default Home;
 const AuthShowcase: React.FC = () => {
   const { data: sessionData } = useSession();
   const router = useRouter();
+
+
   return (
     <div className="flex flex-col items-center justify-center gap-4">
       {sessionData?.user?.image && (
@@ -62,7 +64,7 @@ const AuthShowcase: React.FC = () => {
                 <li>Id: <span className='text-green-200'>{sessionData.user.id}</span></li>
               )}
               {sessionData.user?.image && (
-                <li>Image URL: <div onClick={()=>router.push(sessionData.user.image ?? '')} className='text-green-200 cursor-pointer truncate max-w-sm'>{sessionData.user.image}</div></li>
+                <li>Image URL: <div onClick={()=> {void router.push(sessionData?.user?.image ?? '')}} className='text-green-200 cursor-pointer truncate max-w-sm'>{sessionData.user.image}</div></li>
               )}
             </ul>
           </div>
