@@ -61,12 +61,12 @@ export const authOptions: NextAuthOptions = {
       clientSecret: env.GITHUB_SECRET,
     }),
     GoogleProvider({
-      clientId: process.env.GOOGLE_CLIENT_ID, // it's ok
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET, // it's ok
+      clientId: env.GOOGLE_CLIENT_ID,
+      clientSecret: env.GOOGLE_CLIENT_SECRET,
     }),
     VkProvider({
-      clientId: process.env.VK_CLIENT_ID, // it's ok
-      clientSecret: process.env.VK_CLIENT_SECRET // it's ok
+      clientId: env.VK_CLIENT_ID, 
+      clientSecret: env.VK_CLIENT_SECRET
     }),
   ],
 };
