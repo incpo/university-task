@@ -13,8 +13,8 @@
 
 Проверьте сами:
 
-- [Тестовое задание 1](https://create.t3.gg/) — Авторизация 
-- [Тестовое задание 2](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Селектор
+- [Тестовое задание 1](https://university-task-three.vercel.app/) — Авторизация 
+- [Тестовое задание 2](https://university-task-three.vercel.app/task2) — Селектор
 
 Вы можете подробно изучить структуру проекта  [university-task](https://github.com/incpo/university-task) проанализируя файлы проекта.
 
