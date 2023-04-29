@@ -37,6 +37,7 @@ export default Home;
 const AuthShowcase: React.FC = () => {
   const { data: sessionData } = useSession();
   const router = useRouter();
+  console.log(sessionData);
 
 
   return (
